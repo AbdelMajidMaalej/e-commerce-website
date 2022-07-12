@@ -10,47 +10,45 @@ import './footer.css'
 export default function Footer() {
   return (
     <div>
-      <div className='upFooter'>
-        <ul className='info'>
-          <li className='headTitle'>Hot links</li>
-          <li className='links'><a href="" >Home</a></li>
-          <li className='links'><a href="" >Shop</a></li>
-          <li className='links' ><a href="" >Blog</a></li>
-          <li className='links'><a href="" >Contact</a></li>
+      <div className='upFooter_'>
+        <ul className='info_' id='all'>
+          <li className='headTitle_'>Hot links</li>
+          <li className='links_'><a href="" >Home</a></li>
+          <li className='links_'><a href="" >Shop</a></li>
+          <li className='links_' ><a href="" >Blog</a></li>
+          <li className='links_'><a href="" >Contact</a></li>
         </ul>
-        <ul className='info'>
-          <li className='headTitle'>More info</li>
-          <li className='links'><a href="" >how it works</a></li>
-          <li className='links'><a href="" >About us </a></li>
-          <li className='links'><a href="" >Decline rules</a></li>
-          <li className='links'><a href="" >Terms & Conditions</a></li>
+        <ul className='info_' id='all'>
+          <li className='headTitle_'>More info</li>
+          <li className='links_'><a href="" >how it works</a></li>
+          <li className='links_'><a href="" >About us </a></li>
+          <li className='links_'><a href="" >Decline rules</a></li>
+          <li className='links_'><a href="" >Terms & Conditions</a></li>
         </ul>
-        <ul className='info'>
-          <li className='headTitle'>Customer care</li>
-          <li className='links'><a href="" >FAQ</a></li>
-          <li className='links'><a href="" >Terms of use</a></li>
-          <li className='links'><a href="" >Privacy Policy</a></li>
-          <li className='links'><a href="" >Discount system</a></li>
+        <ul className='info_' id='all'>
+          <li className='headTitle_'>Customer care</li>
+          <li className='links_'><a href="" >FAQ</a></li>
+          <li className='links_'><a href="" >Terms of use</a></li>
+          <li className='links_'><a href="" >Privacy Policy</a></li>
+          <li className='links_'><a href="" >Discount system</a></li>
         </ul>
-        <ul className='info'>
-          <li className='headTitle'>Get newsletter</li>
-          <li id='link'><a href="" >Get updates about appliances</a></li>
-          <li>
-            <input id='input' type="text" name="email" placeholder='Type your email'/>
-            <a href=""><button className='sendbtn'><AiOutlineSend size={25} /></button></a>
-          </li>
+        <ul className='info_'>
+          <li className='headTitle_'>Get newsletter</li>
+          <li id='link_'><a href="" >Get updates about appliances</a></li>
+          <li><input type='text' id='input_' placeholder='Type your email...'></input></li>
+          <li><button className='sendbtn_'><AiOutlineSend size={25}></AiOutlineSend></button></li>
         </ul>
         
  
       </div>
 
-      <div className='downFooter'>
-          <div className='copyright'><h3>© Appliances Shopping all rights reserved</h3></div>
+      <div className='downFooter_'>
+          <div className='copyright_'><h3>© Appliances Shopping all rights reserved</h3></div>
 
-          <div className='social'>
-            <div className='img'><a href=""><AiOutlineInstagram size={20} /></a></div>
-            <div className='img'><a href=""><AiOutlineTwitter size={20} /></a></div>
-            <div className='img'><a href=""><GrFacebookOption size={20} /></a></div>
+          <div className='social_'>
+            <div className='img_'><a href=""><AiOutlineInstagram size={20} /></a></div>
+            <div className='img_'><a href=""><AiOutlineTwitter size={20} /></a></div>
+            <div className='img_'><a href=""><GrFacebookOption size={20} /></a></div>
           </div>
       </div>    
 

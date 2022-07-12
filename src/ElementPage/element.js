@@ -6,7 +6,7 @@ import Footer from '../footer/footer'
 
 export default function Element() {
   return (
-    <div className='element'>
+    <div>
         <Navbar />
         <Body/>
         <Footer />    

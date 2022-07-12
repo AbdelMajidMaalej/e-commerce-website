@@ -17,40 +17,36 @@
 
 
 html, body {
-    height: 100%;
+    height: 100vh;
 }
 
 #container_ {
     min-height: 100%;
     margin-bottom: 250px;
-    position: relative;
+
 }
 
 #main_ {
-    overflow: none;
+
     position: relative;
     top: 0;
     border-radius: 15px;
     background-color: white;
-    margin-bottom: 55px;
+    margin-bottom: -10vh;
 }
 
 #sep1 {
     position: relative;
     background-color: #F6F6F6;
-    top: 0;
-    height: 60px;
+    height: 6vh;
 }
 
 .favIcon {
     position: absolute;
-    top: 8%;
+    top: 2%;
     right:5.5%;        
 }
 
-.elementInfo {
-    display: flex;
-}
 
 .elementName { 
     overflow: none;
@@ -64,7 +60,7 @@ html, body {
 }
 
 .elementName h1 {   
-    font-size:54px;
+    font-size: 2.5vw;
     text-align: left ;
     font-weight: bold;
     font-family: "Gilory", Sans Serif;
@@ -82,8 +78,7 @@ html, body {
 }
 
 .elementDesc h1 {
-    font-size:28px;
-    text-align: left ;
+    font-size:1.5vw;
     font-weight: lighter;
     font-family: 'Playfair Display', Sans Serif;
 }
@@ -91,18 +86,18 @@ html, body {
 .elementInfoR {
     position: relative;
     left:57%;
-    top: -380px;
+    bottom: 320px;
     background-color: #E8EBF2;
-    width: 570px;
-    height: 590px;
+    width: 29.7vw;
+    height: 61vh;
     border-radius: 15px;
 }
 
 .elementPrice {
-    position: relative;
-    left: 30%;
-    top: 106%;
-    font-size: 45px;
+    position: absolute;
+    left: 32%;
+    bottom: -8vh;
+    font-size: 2vw;
     font-family: 'Futur';
     color: #282C40;
 }
@@ -126,8 +121,9 @@ html, body {
 .colorChoice h1 {
     font-family: 'Futur';
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 1.3vw;
     margin-right: 40px;
+    margin-top: 1.5vh;
 }
 
 .colors {
@@ -135,8 +131,8 @@ html, body {
 }
 
 .color {
-    width: 70px;
-    height: 70px;
+    width: 3.6vw;
+    height: 7vh;
     margin-right: 20px;
     cursor: pointer;
 }
@@ -153,14 +149,13 @@ html, body {
 #btn {
     position: relative;
     left: 38%;
-    top: -70px;
-    display: inline-block;
+    bottom: 1vh;
     border: none;
     border-radius: 10px;
-    padding: 20px 170px;
+    padding: 2.1vh 8.8vw;
     background-color: #4D79D7;
     font-family: 'Muli';
-    font-size: 30px;
+    font-size: 1.2vw;
     margin-bottom: 20px;
     color: white;
     cursor: pointer;
@@ -174,8 +169,6 @@ html, body {
 #sep2 {
         position: relative;
         background-color: #F6F6F6;
-        top: 200px;
-        height: 60px;
-        margin-bottom: -50px;
-        margin-top: -280px;
+        bottom: -21vh;
+        height: 6vh;
 }

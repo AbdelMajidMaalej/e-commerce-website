@@ -19,8 +19,9 @@ export default function ElementBody() {
   return (
     <div>
       <div id='container_' >
+        <div id='sep1'></div>
         <div id='main_'>
-          <div id='sep1'></div>
+
 
           {
             toggleFav && (

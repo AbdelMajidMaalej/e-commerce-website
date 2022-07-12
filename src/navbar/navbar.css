@@ -13,15 +13,11 @@
 .firstNav {
     list-style-type: none;
     margin: 0px;
-    padding: 0px;
     overflow: hidden; 
     position: absolute;
-    left: 44%; 
+    left: 42%; 
     top: 16%; 
-  }
-  
-.firstNav li{
-    float: left;  
+    display: flex;
   }
   
 .title {
