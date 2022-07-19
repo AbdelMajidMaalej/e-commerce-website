@@ -3,9 +3,6 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
 import { IoCloseOutline } from "react-icons/io5"
-import { BsSuitHeart } from "react-icons/bs";
-import { BiUser } from "react-icons/bi";
-import { BsHandbag } from "react-icons/bs";
 import { IoSearchOutline } from "react-icons/io5";
 
 import './search.css'
@@ -17,7 +14,7 @@ export default function Navbar_contact() {
   const [output, setOutput] = useState([])
 
   useEffect(() => {
-    axios.get('http://localhost:3020/api/element/getAllElement')
+    axios.get('http://localhost:3020/api/element/getAllElementSearch')
       .then(res => {
         setElementData(res.data)
       })
@@ -43,10 +40,10 @@ export default function Navbar_contact() {
         <div className='searchBar_'>
           <input type='text' value={input} placeholder='Search' onChange={handleFilter} />
           <div className='searchBarIcon_'>
-            {input.length == 0 ? <IoSearchOutline id='o' size={25} /> : <IoCloseOutline id='x'size={25} onClick={clearSearch} />}</div>
+            {input.length === 0 ? <IoSearchOutline id='o' size={25} /> : <IoCloseOutline id='x'size={25} onClick={clearSearch} />}</div>
         </div>
         {
-          output.length != 0 &&
+          output.length !== 0 &&
           (<div className='searchResult'>
             <ul className='elements'>
               {output
