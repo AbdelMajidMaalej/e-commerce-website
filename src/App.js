@@ -1,13 +1,12 @@
 import React from 'react'
-
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom'
 
-import Element from './ElementPage/element'
-import Contact from './ContactPage/contact'
-import Order from './OrderPage/order'
-import Notfound from '../src/404 not found/404'
+// import Element from './ElementPage/element'
+// import Contact from './ContactPage/contact'
+// import Order from './OrderPage/order'
+// import Notfound from '../src/404 not found/404'
 import Shop from "./Shop/components/Shop"
-import ElementShop from './Shop/components/ElementShop'
+import Home from './Home/Home'
 
 export default function App() {
   return (
@@ -20,8 +19,8 @@ export default function App() {
           <Route path='*' element={<Notfound />} />
         </Routes>
       </Router> */}
-      <ElementShop />
-      {/* <Shop /> */}
+      <Shop /> 
+      {/* <Home /> */}
       </div>
   )
 }
